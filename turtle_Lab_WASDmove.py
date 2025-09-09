@@ -1,6 +1,8 @@
 import turtle
 import random
 
+turtle.shape('turtle')
+
 def moveW():
     turtle.setheading(90)
     turtle.forward(50)
@@ -25,4 +27,3 @@ turtle.onkey(moveD,'d')
 turtle.listen()
 
 turtle.mainloop()
-
